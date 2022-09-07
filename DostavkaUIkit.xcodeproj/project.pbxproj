@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324B57595FD465624596F184 /* Pods_DostavkaUIkitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89E6C8CDBB0FED17915DE7E /* Pods_DostavkaUIkitTests.framework */; };
+		3909BE0928AE2699002356B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909BE0828AE2699002356B7 /* MapViewController.swift */; };
+		3945D5B828ACE04E00B482D0 /* AlertDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945D5B728ACE04E00B482D0 /* AlertDelete.swift */; };
 		39C862AD28A0FA3E00DF13EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862AC28A0FA3E00DF13EB /* AppDelegate.swift */; };
 		39C862AF28A0FA3E00DF13EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862AE28A0FA3E00DF13EB /* SceneDelegate.swift */; };
-		39C862B128A0FA3E00DF13EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862B028A0FA3E00DF13EB /* ViewController.swift */; };
+		39C862B128A0FA3E00DF13EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862B028A0FA3E00DF13EB /* MainView.swift */; };
 		39C862B428A0FA3E00DF13EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C862B228A0FA3E00DF13EB /* Main.storyboard */; };
 		39C862B628A0FA3F00DF13EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C862B528A0FA3F00DF13EB /* Assets.xcassets */; };
 		39C862B928A0FA3F00DF13EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C862B728A0FA3F00DF13EB /* LaunchScreen.storyboard */; };
 		39C862C428A0FA3F00DF13EB /* DostavkaUIkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862C328A0FA3F00DF13EB /* DostavkaUIkitTests.swift */; };
 		39C862CE28A0FA3F00DF13EB /* DostavkaUIkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862CD28A0FA3F00DF13EB /* DostavkaUIkitUITests.swift */; };
 		39C862D028A0FA3F00DF13EB /* DostavkaUIkitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862CF28A0FA3F00DF13EB /* DostavkaUIkitUITestsLaunchTests.swift */; };
+		39C862E428A130FE00DF13EB /* DescripHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862E328A130FE00DF13EB /* DescripHotelViewController.swift */; };
+		39C862E828A2B49F00DF13EB /* DWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862E728A2B49F00DF13EB /* DWorkViewController.swift */; };
+		39C862EB28A3B6D200DF13EB /* CellForDWorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862EA28A3B6D200DF13EB /* CellForDWorkTableViewCell.swift */; };
+		39C862EE28A3B91D00DF13EB /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862ED28A3B91D00DF13EB /* Hotels.swift */; };
+		39C862F328A4045400DF13EB /* AddNewHotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862F228A4045400DF13EB /* AddNewHotelTableViewController.swift */; };
+		39C862F828A4F1EA00DF13EB /* ListOfHotelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862F728A4F1EA00DF13EB /* ListOfHotelsCell.swift */; };
+		39C862FA28A4FB2700DF13EB /* ListOfHotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C862F928A4FB2700DF13EB /* ListOfHotelsViewController.swift */; };
+		39C862FD28A6576D00DF13EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 39C862FC28A6576D00DF13EB /* Realm */; };
+		39C862FF28A6576D00DF13EB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 39C862FE28A6576D00DF13EB /* RealmSwift */; };
+		39C8630228A65A6700DF13EB /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630128A65A6700DF13EB /* RealmManager.swift */; };
+		39C8630428A65A8200DF13EB /* RealmConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630328A65A8200DF13EB /* RealmConfigurator.swift */; };
+		39C8630728A67DD200DF13EB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630628A67DD200DF13EB /* Alert.swift */; };
+		39C8630928A6AE2E00DF13EB /* IfCellIsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630828A6AE2E00DF13EB /* IfCellIsEmpty.swift */; };
+		39C8630D28ABA8C900DF13EB /* HotelsForDWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630C28ABA8C900DF13EB /* HotelsForDWTableViewController.swift */; };
+		39C8630F28ABC13C00DF13EB /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8630E28ABC13C00DF13EB /* GlobalVar.swift */; };
+		3E7AA7DED31AB88B26A65A68 /* Pods_DostavkaUIkit_DostavkaUIkitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDE939961430299E613786 /* Pods_DostavkaUIkit_DostavkaUIkitUITests.framework */; };
+		E34B20A5CEC522EF1FFF111F /* Pods_DostavkaUIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA3AC29CC79D445AA11541A /* Pods_DostavkaUIkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA3AC29CC79D445AA11541A /* Pods_DostavkaUIkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DostavkaUIkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CF7C918E4869569B572DF6 /* Pods-DostavkaUIkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkit.debug.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkit/Pods-DostavkaUIkit.debug.xcconfig"; sourceTree = "<group>"; };
+		3909BE0828AE2699002356B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3945D5B728ACE04E00B482D0 /* AlertDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDelete.swift; sourceTree = "<group>"; };
 		39C862A928A0FA3E00DF13EB /* DostavkaUIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DostavkaUIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C862AC28A0FA3E00DF13EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C862AE28A0FA3E00DF13EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39C862B028A0FA3E00DF13EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39C862B028A0FA3E00DF13EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		39C862B328A0FA3E00DF13EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C862B528A0FA3F00DF13EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C862B828A0FA3F00DF13EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,26 @@
 		39C862C928A0FA3F00DF13EB /* DostavkaUIkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DostavkaUIkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C862CD28A0FA3F00DF13EB /* DostavkaUIkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DostavkaUIkitUITests.swift; sourceTree = "<group>"; };
 		39C862CF28A0FA3F00DF13EB /* DostavkaUIkitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DostavkaUIkitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39C862E328A130FE00DF13EB /* DescripHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripHotelViewController.swift; sourceTree = "<group>"; };
+		39C862E728A2B49F00DF13EB /* DWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWorkViewController.swift; sourceTree = "<group>"; };
+		39C862EA28A3B6D200DF13EB /* CellForDWorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForDWorkTableViewCell.swift; sourceTree = "<group>"; };
+		39C862ED28A3B91D00DF13EB /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		39C862F228A4045400DF13EB /* AddNewHotelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewHotelTableViewController.swift; sourceTree = "<group>"; };
+		39C862F728A4F1EA00DF13EB /* ListOfHotelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHotelsCell.swift; sourceTree = "<group>"; };
+		39C862F928A4FB2700DF13EB /* ListOfHotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHotelsViewController.swift; sourceTree = "<group>"; };
+		39C8630128A65A6700DF13EB /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		39C8630328A65A8200DF13EB /* RealmConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfigurator.swift; sourceTree = "<group>"; };
+		39C8630628A67DD200DF13EB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		39C8630828A6AE2E00DF13EB /* IfCellIsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfCellIsEmpty.swift; sourceTree = "<group>"; };
+		39C8630C28ABA8C900DF13EB /* HotelsForDWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsForDWTableViewController.swift; sourceTree = "<group>"; };
+		39C8630E28ABC13C00DF13EB /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		437E1D106CBDCACF04F835D8 /* Pods-DostavkaUIkitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkitTests.release.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkitTests/Pods-DostavkaUIkitTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B4E822024694E84CA141BD0 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkit-DostavkaUIkitUITests.release.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkit-DostavkaUIkitUITests/Pods-DostavkaUIkit-DostavkaUIkitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FF6E3FE5A576F39A4FE9422 /* Pods-DostavkaUIkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkit.release.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkit/Pods-DostavkaUIkit.release.xcconfig"; sourceTree = "<group>"; };
+		85C4ED5D111507B3D5C9FADD /* Pods-DostavkaUIkitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkitTests.debug.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkitTests/Pods-DostavkaUIkitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAEDE939961430299E613786 /* Pods_DostavkaUIkit_DostavkaUIkitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DostavkaUIkit_DostavkaUIkitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89E6C8CDBB0FED17915DE7E /* Pods_DostavkaUIkitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DostavkaUIkitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A431BDF1490197CD9D1AA1 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DostavkaUIkit-DostavkaUIkitUITests.debug.xcconfig"; path = "Target Support Files/Pods-DostavkaUIkit-DostavkaUIkitUITests/Pods-DostavkaUIkit-DostavkaUIkitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C862FF28A6576D00DF13EB /* RealmSwift in Frameworks */,
+				39C862FD28A6576D00DF13EB /* Realm in Frameworks */,
+				E34B20A5CEC522EF1FFF111F /* Pods_DostavkaUIkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324B57595FD465624596F184 /* Pods_DostavkaUIkitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7AA7DED31AB88B26A65A68 /* Pods_DostavkaUIkit_DostavkaUIkitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +132,8 @@
 				39C862C228A0FA3F00DF13EB /* DostavkaUIkitTests */,
 				39C862CC28A0FA3F00DF13EB /* DostavkaUIkitUITests */,
 				39C862AA28A0FA3E00DF13EB /* Products */,
+				A29FE7F89D8F19FB74E65112 /* Pods */,
+				C138AC300A5E9C925581D987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +152,13 @@
 			children = (
 				39C862AC28A0FA3E00DF13EB /* AppDelegate.swift */,
 				39C862AE28A0FA3E00DF13EB /* SceneDelegate.swift */,
-				39C862B028A0FA3E00DF13EB /* ViewController.swift */,
+				39C862B028A0FA3E00DF13EB /* MainView.swift */,
 				39C862B228A0FA3E00DF13EB /* Main.storyboard */,
+				39C862DC28A0FB0300DF13EB /* MainStruct */,
+				39C862E928A3B67700DF13EB /* CustomCells */,
+				39C862EC28A3B90300DF13EB /* Class */,
+				39C8630028A65A4000DF13EB /* RealmManager */,
+				39C8630528A67DA000DF13EB /* Alerts */,
 				39C862B528A0FA3F00DF13EB /* Assets.xcassets */,
 				39C862B728A0FA3F00DF13EB /* LaunchScreen.storyboard */,
 				39C862BA28A0FA3F00DF13EB /* Info.plist */,
@@ -127,6 +183,79 @@
 			path = DostavkaUIkitUITests;
 			sourceTree = "<group>";
 		};
+		39C862DC28A0FB0300DF13EB /* MainStruct */ = {
+			isa = PBXGroup;
+			children = (
+				39C862E328A130FE00DF13EB /* DescripHotelViewController.swift */,
+				39C862E728A2B49F00DF13EB /* DWorkViewController.swift */,
+				39C862F228A4045400DF13EB /* AddNewHotelTableViewController.swift */,
+				39C862F928A4FB2700DF13EB /* ListOfHotelsViewController.swift */,
+				39C8630C28ABA8C900DF13EB /* HotelsForDWTableViewController.swift */,
+				3909BE0828AE2699002356B7 /* MapViewController.swift */,
+			);
+			path = MainStruct;
+			sourceTree = "<group>";
+		};
+		39C862E928A3B67700DF13EB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				39C862EA28A3B6D200DF13EB /* CellForDWorkTableViewCell.swift */,
+				39C862F728A4F1EA00DF13EB /* ListOfHotelsCell.swift */,
+				39C8630828A6AE2E00DF13EB /* IfCellIsEmpty.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		39C862EC28A3B90300DF13EB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				39C862ED28A3B91D00DF13EB /* Hotels.swift */,
+				39C8630E28ABC13C00DF13EB /* GlobalVar.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		39C8630028A65A4000DF13EB /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				39C8630128A65A6700DF13EB /* RealmManager.swift */,
+				39C8630328A65A8200DF13EB /* RealmConfigurator.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
+		39C8630528A67DA000DF13EB /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				39C8630628A67DD200DF13EB /* Alert.swift */,
+				3945D5B728ACE04E00B482D0 /* AlertDelete.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		A29FE7F89D8F19FB74E65112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34CF7C918E4869569B572DF6 /* Pods-DostavkaUIkit.debug.xcconfig */,
+				5FF6E3FE5A576F39A4FE9422 /* Pods-DostavkaUIkit.release.xcconfig */,
+				E6A431BDF1490197CD9D1AA1 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.debug.xcconfig */,
+				5B4E822024694E84CA141BD0 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.release.xcconfig */,
+				85C4ED5D111507B3D5C9FADD /* Pods-DostavkaUIkitTests.debug.xcconfig */,
+				437E1D106CBDCACF04F835D8 /* Pods-DostavkaUIkitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C138AC300A5E9C925581D987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3AC29CC79D445AA11541A /* Pods_DostavkaUIkit.framework */,
+				CAEDE939961430299E613786 /* Pods_DostavkaUIkit_DostavkaUIkitUITests.framework */,
+				D89E6C8CDBB0FED17915DE7E /* Pods_DostavkaUIkitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +263,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39C862D328A0FA3F00DF13EB /* Build configuration list for PBXNativeTarget "DostavkaUIkit" */;
 			buildPhases = (
+				16D43BC8CC39FD00C465B4A9 /* [CP] Check Pods Manifest.lock */,
 				39C862A528A0FA3E00DF13EB /* Sources */,
 				39C862A628A0FA3E00DF13EB /* Frameworks */,
 				39C862A728A0FA3E00DF13EB /* Resources */,
+				6308D0690ACA31EC96874570 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DostavkaUIkit;
+			packageProductDependencies = (
+				39C862FC28A6576D00DF13EB /* Realm */,
+				39C862FE28A6576D00DF13EB /* RealmSwift */,
+			);
 			productName = DostavkaUIkit;
 			productReference = 39C862A928A0FA3E00DF13EB /* DostavkaUIkit.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39C862D628A0FA3F00DF13EB /* Build configuration list for PBXNativeTarget "DostavkaUIkitTests" */;
 			buildPhases = (
+				55A14E9CBEED2506BF3AFB1C /* [CP] Check Pods Manifest.lock */,
 				39C862BB28A0FA3F00DF13EB /* Sources */,
 				39C862BC28A0FA3F00DF13EB /* Frameworks */,
 				39C862BD28A0FA3F00DF13EB /* Resources */,
@@ -169,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39C862D928A0FA3F00DF13EB /* Build configuration list for PBXNativeTarget "DostavkaUIkitUITests" */;
 			buildPhases = (
+				9B223273986586045B5C6ED1 /* [CP] Check Pods Manifest.lock */,
 				39C862C528A0FA3F00DF13EB /* Sources */,
 				39C862C628A0FA3F00DF13EB /* Frameworks */,
 				39C862C728A0FA3F00DF13EB /* Resources */,
+				7A9E69F7689ABD707A71E8B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +353,9 @@
 				Base,
 			);
 			mainGroup = 39C862A028A0FA3E00DF13EB;
+			packageReferences = (
+				39C862FB28A6576D00DF13EB /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 39C862AA28A0FA3E00DF13EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +394,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16D43BC8CC39FD00C465B4A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DostavkaUIkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A14E9CBEED2506BF3AFB1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DostavkaUIkitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6308D0690ACA31EC96874570 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit/Pods-DostavkaUIkit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit/Pods-DostavkaUIkit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit/Pods-DostavkaUIkit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9E69F7689ABD707A71E8B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit-DostavkaUIkitUITests/Pods-DostavkaUIkit-DostavkaUIkitUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit-DostavkaUIkitUITests/Pods-DostavkaUIkit-DostavkaUIkitUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DostavkaUIkit-DostavkaUIkitUITests/Pods-DostavkaUIkit-DostavkaUIkitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B223273986586045B5C6ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DostavkaUIkit-DostavkaUIkitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39C862A528A0FA3E00DF13EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C862B128A0FA3E00DF13EB /* ViewController.swift in Sources */,
+				39C8630D28ABA8C900DF13EB /* HotelsForDWTableViewController.swift in Sources */,
+				39C8630428A65A8200DF13EB /* RealmConfigurator.swift in Sources */,
+				3945D5B828ACE04E00B482D0 /* AlertDelete.swift in Sources */,
+				39C862E428A130FE00DF13EB /* DescripHotelViewController.swift in Sources */,
+				39C862FA28A4FB2700DF13EB /* ListOfHotelsViewController.swift in Sources */,
+				39C862B128A0FA3E00DF13EB /* MainView.swift in Sources */,
+				39C862EE28A3B91D00DF13EB /* Hotels.swift in Sources */,
+				39C8630228A65A6700DF13EB /* RealmManager.swift in Sources */,
 				39C862AD28A0FA3E00DF13EB /* AppDelegate.swift in Sources */,
 				39C862AF28A0FA3E00DF13EB /* SceneDelegate.swift in Sources */,
+				39C862F328A4045400DF13EB /* AddNewHotelTableViewController.swift in Sources */,
+				39C862F828A4F1EA00DF13EB /* ListOfHotelsCell.swift in Sources */,
+				39C862E828A2B49F00DF13EB /* DWorkViewController.swift in Sources */,
+				3909BE0928AE2699002356B7 /* MapViewController.swift in Sources */,
+				39C862EB28A3B6D200DF13EB /* CellForDWorkTableViewCell.swift in Sources */,
+				39C8630728A67DD200DF13EB /* Alert.swift in Sources */,
+				39C8630F28ABC13C00DF13EB /* GlobalVar.swift in Sources */,
+				39C8630928A6AE2E00DF13EB /* IfCellIsEmpty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +691,7 @@
 		};
 		39C862D428A0FA3F00DF13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CF7C918E4869569B572DF6 /* Pods-DostavkaUIkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,8 +703,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +721,7 @@
 		};
 		39C862D528A0FA3F00DF13EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF6E3FE5A576F39A4FE9422 /* Pods-DostavkaUIkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +733,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +752,7 @@
 		};
 		39C862D728A0FA3F00DF13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C4ED5D111507B3D5C9FADD /* Pods-DostavkaUIkitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +773,7 @@
 		};
 		39C862D828A0FA3F00DF13EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437E1D106CBDCACF04F835D8 /* Pods-DostavkaUIkitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +794,7 @@
 		};
 		39C862DA28A0FA3F00DF13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A431BDF1490197CD9D1AA1 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +813,7 @@
 		};
 		39C862DB28A0FA3F00DF13EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4E822024694E84CA141BD0 /* Pods-DostavkaUIkit-DostavkaUIkitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +870,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39C862FB28A6576D00DF13EB /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39C862FC28A6576D00DF13EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39C862FB28A6576D00DF13EB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		39C862FE28A6576D00DF13EB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39C862FB28A6576D00DF13EB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 39C862A128A0FA3E00DF13EB /* Project object */;
 }
